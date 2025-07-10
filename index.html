@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TotoGo 探探购 – Discover Chengdu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Noto+Sans+SC:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(to bottom, #ffe5b4, #fff4e6);
+      overflow-x: hidden;
+    }
+
+    .header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      color: #d10000;
+      font-family: 'Luckiest Guy', cursive;
+      font-size: 2.5rem;
+      animation: slideInDown 1s ease-out;
+    }
+
+    .subheader {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #333;
+      animation: fadeIn 2s ease-in;
+    }
+
+    .main-image {
+      max-width: 35%;
+      height: auto;
+      display: block;
+      margin: 2rem auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .content {
+      text-align: center;
+      margin: 2rem auto;
+      max-width: 750px;
+      padding: 1rem;
+      background: #fffbe6;
+      border-radius: 12px;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    .content h2 {
+      color: #d10000;
+    }
+
+    .lang {
+      margin-top: 1rem;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      color: #999;
+    }
+
+    @keyframes slideInDown {
+      from {
+        transform: translateY(-100px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @media (max-width: 600px) {
+      .header {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="header">TotoGo 探探购 – Chengdu Edition</div>
+  <div class="subheader">Your passport to culture, food, and fun! / 你的味觉护照</div>
+
+  <img src="characters_welcome.jpg" alt="Welcome to Chengdu" class="main-image" />
+
+  <div class="content">
+    <h2>Welcome to Chengdu 成都欢迎您!</h2>
+    <p>Chengdu, the capital of Sichuan province, is famous for its spicy cuisine, ancient culture, and adorable pandas!</p>
+    <p class="lang">成都是四川省的省会，以其麻辣美食、悠久历史文化和可爱的熊猫而闻名。</p>
+    <p>Explore historic temples, try delicious hotpot, and enjoy the laid-back lifestyle of this charming city.</p>
+    <p class="lang">探索古老的寺庙，品尝地道火锅，感受成都悠闲的生活节奏。</p>
+    <p><strong>We hope you enjoyed this journey!</strong></p>
+    <p class="lang"><strong>希望您喜欢这段探索之旅！</strong></p>
+  </div>
+
+  <footer>
+    © 2025 TotoGo 探探购. All rights reserved.
+  </footer>
+</body>
+</html>
